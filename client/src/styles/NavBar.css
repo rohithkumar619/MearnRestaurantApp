@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(204, 204, 204);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+}
+.leftside {
+  width: 25%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.rightside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  gap: 100px;
+  margin-left: 20px;
+}
+.logoName {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.btn {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.registers {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-style: italic;
+}
+@media (max-width: 800px) {
+  .logoName {
+    font-size: 17px;
+    margin-left: -35px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .leftside {
+    width: 30%;
+  }
+  .rightside {
+    margin-left: -7px;
+    gap: 8px;
+  }
+}

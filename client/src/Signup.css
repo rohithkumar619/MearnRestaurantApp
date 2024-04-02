@@ -1,0 +1,91 @@
+.mainimage img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.form {
+  position: absolute;
+  top: 110px;
+  right: 170px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+.formlogin {
+  height: 360px;
+}
+.form h2 {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+  font-style: italic;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.element label {
+  font-style: italic;
+}
+input {
+  width: 345px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin: 5px 0;
+  height: 30px;
+  color: white;
+  outline: none;
+}
+::placeholder {
+  color: rgb(114, 114, 114);
+  font-style: italic;
+}
+.registerbutton {
+  background-color: white;
+  color: black;
+  width: 120px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.already {
+  font-size: 15px;
+  font-style: italic;
+}
+.loginbutton {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(249, 145, 0);
+}
+.registertitle {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.registertitle h2 {
+  font-size: 35px;
+  margin: 0;
+  font-style: italic;
+}
+.registertitle h5 {
+  font-style: italic;
+  font-size: 17px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  width: 500px;
+  text-align: start;
+}

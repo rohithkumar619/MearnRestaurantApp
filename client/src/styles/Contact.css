@@ -1,0 +1,70 @@
+.pizzaleft {
+  width: 600px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -20;
+}
+.contact {
+  display: flex;
+}
+.leftone {
+  width: 45%;
+}
+.rightone {
+  width: 55%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 60px;
+  background-color: white;
+  color: black;
+}
+#contactform {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: start;
+  margin-left: 50px;
+  border: 1px solid black;
+  width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+}
+input {
+  background-color: white;
+  border: 0;
+  width: 500px;
+  height: 25px;
+  border-bottom: 2px solid black;
+  color: black;
+}
+textarea {
+  background-color: white;
+  padding-bottom: 50px;
+  border: 0;
+  width: 500px;
+  height: 25px;
+  color: black;
+  border-bottom: 2px solid black;
+}
+.submit {
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: black;
+  border: 2px solid black;
+}
+.submit:active {
+  box-shadow: 2px 2px 5px black;
+}
+.success-msg {
+  font-size: 17px;
+  background-color: rgb(255, 255, 0);
+  width: fit-content;
+  margin-left: 50px;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}

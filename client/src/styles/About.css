@@ -1,0 +1,51 @@
+.aboutbackground {
+  display: flex;
+  flex-direction: column;
+}
+.pizza {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+  margin-top: 70px;
+  position: absolute;
+  z-index: -10;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.pizza1 {
+  width: 100vw;
+  height: 100%;
+  opacity: 0.2;
+  object-fit: cover;
+  position: absolute;
+  z-index: -10;
+  margin-top: 680px;
+  left: 0;
+  right: 0;
+}
+.about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.welcome {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+}
+.aboutname {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 2px solid white;
+  padding-bottom: 6px;
+}
+.aboutdescription {
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
